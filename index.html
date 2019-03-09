@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Word Guess Game</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/javascript/game.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>HANGMAN</h1>
+        </div>
+        <div class="desc">
+            <h1 id="songtitle"></h1>
+        </div>
+        <div class="content">
+            <div class="right">
+                <div class="image">
+                    <img  id="songimage" src="./assets/images/WordGuessImage.jpg">
+                </div>
+            </div>
+            <div class="left">
+                <div class="press">
+                    <h2>PRESS ANY KEY TO GET STARTED</h2><br><br>
+                    <h2 id="wins_counter"><span id="win_count"></span></h2><br><br>
+                    <h2 id="current_word_label"></h2><br><br>
+                    <h2 id="current_word_content"></h2><br><br>
+                    <h2 id="guessed_letter_label"></h2><br><br><br>
+                    <h2 id="guessed_letter_content"></h2>
+                    <h2 id="guesses_left_lbl"></h2><br><br>
+                    <h2 id="guesses_left_content"></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
